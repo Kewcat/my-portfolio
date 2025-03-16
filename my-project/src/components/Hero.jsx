@@ -19,7 +19,8 @@ const Hero =() => {
 Currently, I’m seeking internship opportunities to apply my skills in data science, AI, and cloud computing, while learning from hands-on experience. I believe in continuous growth, collaboration, and building solutions that matter.
 Let’s connect and explore opportunities to create something meaningful!
                     </p>
-                    
+                    <a href= "/resume.pdf" target="_blank" rel="noopener noreferrer" download className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10'>
+                    Download my resume</a>
                 </div>
                 </div>
                 </div> 
