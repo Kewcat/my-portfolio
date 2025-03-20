@@ -31,7 +31,7 @@ const Experience = () => {
                 </span>
               </div>
               <p className="mb-4 text-stone-400">{experience.description}</p>
-              <div className="mt-2">
+              {/*<div className="mt-2">
                 {experience.technologies.map((tech, idx) => (
                   <span
                     key={idx}
@@ -40,7 +40,7 @@ const Experience = () => {
                     {tech}
                   </span>
                 ))}
-              </div>
+              </div>*/}
             </motion.div>
           </div>
         ))}

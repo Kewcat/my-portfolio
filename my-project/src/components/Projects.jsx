@@ -1,8 +1,5 @@
 import { PROJECTS } from "/src/constants/index.js"; 
 import { motion } from "framer-motion";
-
-
-
 const Projects = () => {
     return (
         <div className="pb-4">
