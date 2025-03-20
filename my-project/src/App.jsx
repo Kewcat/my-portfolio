@@ -1,7 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar.jsx'; 
 import Hero from './components/Hero.jsx'
-
+import Technologies from './components/Technologies.jsx';
+import Projects from "./components/Projects.jsx";
+import Experience from "./components/Experience.jsx"
+import Contacts from "./components/Contacts.jsx"
 export default function App() {
   return (
     <div className="overflow-x-hidden text-stone-300 antialiased">
@@ -15,8 +18,12 @@ export default function App() {
 
       {/* Main content */}
       <div className="container mx-auto px-8"> 
-        <Navbar /> {/* Navbar component */}
+        <Navbar /> 
         <Hero/>
+        <Technologies/>
+        <Projects/>
+        <Experience/>
+        <Contacts/>
       </div>
     </div>
   );
