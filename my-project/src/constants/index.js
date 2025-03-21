@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
+import project5 from  "../assets/projects/project-5.jpg";
 
 export const EXPERIENCES = [
   {
@@ -14,7 +15,8 @@ export const EXPERIENCES = [
     year: "2025 - Present",
     role: "Graduate Teaching Assistant",
     company: "Concordia University",
-    description: `Graduate Teaching Assistant for COMP 346: Operating Systems, evaluating assignments and helping students understand OS fundamentals like processes, concurrency, and memory management. Provided guidance on file systems and synchronization concepts. Strengthened my knowledge of operating systems while supporting student learning.`,
+    description: `Graduate Teaching Assistant for COMP 346: Operating Systems
+    Evaluated assignments and helping students understand OS fundamentals like processes, concurrency, and memory management. Provided guidance on file systems and synchronization concepts. Strengthened my knowledge of operating systems while supporting student learning.`,
   }
 ];
 export const EDUCATION = [
@@ -97,7 +99,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio",
-    image: project4, 
+    image: project5, 
     description:
       "Created a responsive, interactive portfolio website showcasing various projects and skills. Utilized modern web technologies including TailwindCSS for custom styling, React for dynamic content management, and Framer for smooth animations. Focused on user experience with mobile responsiveness and fast load times, providing a professional online presence.",
     technologies: [
