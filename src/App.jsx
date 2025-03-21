@@ -6,6 +6,7 @@ import Projects from "./components/Projects.jsx";
 import Experience from "./components/Experience.jsx"
 import Contacts from "./components/Contacts.jsx"
 
+
 export default function App() {
   return (
     <div className="overflow-x-hidden text-stone-300 antialiased">
