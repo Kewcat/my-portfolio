@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 //import profilePic from "/src/assets/space.gif";
 import { motion } from "framer-motion";
 
-const roles = ["Data Scientist", "Data Analyst", "Machine Learning Engineer"];
+const roles = ["Data Scientist", "Data Analyst", "ML Engineer"];
 
 /* Button Animation and Sound */
 const DownloadButton = () => {
