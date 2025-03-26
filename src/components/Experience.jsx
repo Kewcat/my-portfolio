@@ -53,7 +53,6 @@ const Experience = () => {
       initial={{opacity:0, y:-100}}
       transition={{duration:0.5}}
       className="my-20 text-center text-4xl">Education</motion.h2>
-    = 
       <div>
         {EDUCATION.map((education, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
